@@ -19,21 +19,18 @@ timezone: Asia/Seoul
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Chirpy                          # the main title
+title: 승기의 개발일기장🌈                          # the main title
 
-tagline: A text-focused Jekyll theme   # it will display as the sub-title
+tagline: 기록만이 살길이다.<br> 기록하고 정리하고 문서화하자.<br>느리더라도 꾸준하게.   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  A minimal, responsive, and powerful Jekyll theme for presenting professional writing.
+  seunGit's Blog.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: 'https://username.github.io'
+url: 'https://seunGit.github.io'
 
 github:
   username: seunGit             # change to your github username
-
-twitter:
-  username: twitter_username            # change to your twitter username
 
 social:
   # Change to your full name.
@@ -42,7 +39,7 @@ social:
   email: minsg3669@gmail.com             # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username      # change to your twitter homepage
+    # - https://twitter.com/username      # change to your twitter homepage
     - https://github.com/seunGit       # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
@@ -71,30 +68,30 @@ google_analytics:
 #     light  - Use the light color scheme
 #     dark   - Use the dark color scheme
 #
-theme_mode:   # [light|dark]
+theme_mode:  
 
 # The CDN endpoint for images.
 # Notice that once it is assigned, the CDN url
 # will be added to all image (site avatar & posts' images) paths starting with '/'
 #
 # e.g. 'https://cdn.com'
-img_cdn: 'https://chirpy-img.netlify.app'
+img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: '/commons/avatar.jpg'
+avatar: assets/img/favicons/android-chrome-256x256.png
 
 # boolean type, the global switch for ToC in posts.
 toc: true
 
 comments:
-  active:         # The global switch for posts comments, e.g., 'disqus'.  Keep it empty means disable
+  active:  'utterances'  # The global switch for posts comments, e.g., 'disqus'.  Keep it empty means disable
   # The active options are as follows:
   disqus:
     shortname:    # fill with the Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
   # utterances settings › https://utteranc.es/
   utterances:
-    repo:         # <gh-username>/<repo>
-    issue_term:   # < url | pathname | title | ...>
+    repo: 'seunGit/seunGit.github.io'        # <gh-username>/<repo>
+    issue_term: 'pathname'  # < url | pathname | title | ...>
   # Giscus options › https://giscus.app
   giscus:
     repo:              # <gh-username>/<repo>
@@ -113,9 +110,6 @@ assets:
     # specify the Jekyll environment, empty means both
     # only works if `assets.self_host.enabled` is 'true'
     env:          # [development|production]
-
-pwa:
-  enabled: true   # the option for PWA feature
 
 paginate: 10
 
