@@ -19,7 +19,7 @@ timezone: Asia/Seoul
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: 승기의 개발일기장🌈                          # the main title
+title: 승기의 알고리즘 일기장🌈                          # the main title
 
 tagline: 기록만이 살길이다.<br> 기록하고 정리하고 문서화하자.<br>느리더라도 꾸준하게.   # it will display as the sub-title
 
